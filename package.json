@@ -3,6 +3,7 @@
   "description": "The demo pattern library created from patternpack",
   "version": "1.0.4",
   "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
     "patternpack": "^1.0.5"
   }
 }
