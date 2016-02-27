@@ -12,7 +12,10 @@ module.exports = function (grunt) {
       },
       run: {},
       build: {},
-      release: {}
+      release: {},
+      "release-patch": {},
+      "release-minor": {},
+      "release-major": {}
     }
   });
 
