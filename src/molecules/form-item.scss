@@ -1,0 +1,6 @@
+.form-item {
+  & > label {
+    display: block;
+    color: $color-text-secondary;
+  }
+}
