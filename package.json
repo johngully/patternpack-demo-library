@@ -1,7 +1,7 @@
 {
   "name": "patternpack-demo-library",
   "description": "The demo pattern library created from patternpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "devDependencies": {
     "patternpack": "^1.0.5"
   }
