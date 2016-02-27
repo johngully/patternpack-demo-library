@@ -5,7 +5,7 @@
     <link href="../assets/../theme-assets/css/github.css" rel="stylesheet" />
     <link href="../assets/css/patterns.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Typography</title>
+    <title>Data Form</title>
   </head>
   <body>
     <div id="libraryContainer" class="pp-container">
@@ -19,24 +19,40 @@
       </header>
       <div id="libraryContent" class="pp-content">
         <div class="markdown__body">
-          <h2 id="title-page-header">Title &amp; Page Header</h2>
-          <p>The title pattern should be used for both page headers and content titles.</p>
+          <h2 id="data-form">Data Form</h2>
+          <p>A data form is designed to fit the most common form pattern in the application. It provides the desired spacing and layout for basic data entry needs.</p>
           <h3 id="examples">Examples</h3>
           <div class="library__example">
-            <h1>Lorem ipsum dolor sit amet</h1>
+            <form class="data-form">
+              <div class="form-item">
+                <label for="username">UserName</label>
+                <input type="text" name="username" />
+              </div>
+              <div class="form-item">
+                <label for="password">Password</label>
+                <input type="password" name="password" />
+              </div>
+              <div>
+                <button type="button">Cancel</button>
+                <button type="submit">Login</button>
+              </div>
+            </form>
           </div>
           <h3 id="code">Code</h3>
-          <pre><code class="language-html">&lt;h1&gt; ... &lt;/h1&gt;</code></pre>
-          <h2 id="content">Content</h2>
-          <p>The content pattern should be used to style to textual content of any page and should be default styling for all text.</p>
-          <h3 id="examples">Examples</h3>
-          <div class="library__example">
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
-              <p>
-          </div>
-          <h3 id="code">Code</h3>
-          <pre><code class="language-html">&lt;p&gt; ... &lt;p&gt;</code></pre>
+          <pre><code class="language-html">&lt;form class=&quot;data-form&quot;&gt;
+  &lt;div class=&quot;form-item&quot;&gt;
+    &lt;label for=&quot;...&quot;&gt; ... &lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;...&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-item&quot;&gt;
+    &lt;label for=&quot;...&quot;&gt; ... &lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;...&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;button type=&quot;button&quot;&gt;Secondary Action&lt;/button&gt;
+    &lt;button type=&quot;submit&quot;&gt;Primary Action&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
         </div>
       </div>
       <div id="menuOverlay" class="pp-open-overlay"></div>
@@ -68,9 +84,9 @@
   ">Atoms</a> 
       </h2>
       <ul>
-        <li> <a href="buttons.html">Buttons</a>  </li>
-        <li> <a href="forms.html">Forms</a>  </li>
-        <li> <a href="typography.html">Typography</a>  </li>
+        <li> <a href="../atoms/buttons.html">Buttons</a>  </li>
+        <li> <a href="../atoms/forms.html">Forms</a>  </li>
+        <li> <a href="../atoms/typography.html">Typography</a>  </li>
       </ul>
       <h2 class="pp-nav__heading">
         <a href="
@@ -118,7 +134,7 @@
   ">Organisms</a> 
       </h2>
       <ul>
-        <li> <a href="../organisms/data-form.html">Data Form</a>  </li>
+        <li> <a href="data-form.html">Data Form</a>  </li>
       </ul>
       <h2 class="pp-nav__heading">
         <a href="
